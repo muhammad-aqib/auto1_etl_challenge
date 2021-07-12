@@ -17,10 +17,27 @@ Developed by Muhammad Aqib - inbox.aqib@gmail.com
 
 # How To Use
 
-```python
+### Package Installation
 
-EtlPackageAuto1(r'files\challenge_me.txt')
-EtlPackageAuto1.load(EtlPackageAuto1.dataFile)
-result = EtlPackageAuto1.transform(EtlPackageAuto1.dataFile)
+[auto1-etl-challenge](https://pypi.org/project/auto1-etl-challenge/)
+
+Install the package in the virtual environment
+
+```sh
+pip install auto1-etl-challenge
+```
+
+### Code Guidelines
+
+Create a python file and provide the location of the source file
+
+Note: For testing purpose, file is kept in files directory of this repo.
+
+```python
+from auto1_etl_challenge import EtlPackageAuto1 #import EtlPackageAuto1 class form package
+
+EtlPackageAuto1(r'files\challenge_me.txt') #stores path of the source file
+EtlPackageAuto1.load(EtlPackageAuto1.dataFile) # loads data and create staging file with cleaned data
+result = EtlPackageAuto1.transform(EtlPackageAuto1.dataFile) # transform data, create transformed file and list matrix
 
 ```
