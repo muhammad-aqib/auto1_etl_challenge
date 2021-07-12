@@ -38,6 +38,6 @@ from auto1_etl_challenge import EtlPackageAuto1 #import EtlPackageAuto1 class fo
 
 EtlPackageAuto1(r'files\challenge_me.txt') #stores path of the source file
 EtlPackageAuto1.load(EtlPackageAuto1.dataFile) # loads data and create staging file with cleaned data
-result = EtlPackageAuto1.transform(EtlPackageAuto1.dataFile) # transform data, create transformed file and list matrix
+result = EtlPackageAuto1.transform(EtlPackageAuto1.dataFile) # transform data, create transformed file and return list matrix
 
 ```
