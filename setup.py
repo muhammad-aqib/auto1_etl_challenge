@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from os import path
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 description = 'Auto1 ETL Challenge'
 
 
