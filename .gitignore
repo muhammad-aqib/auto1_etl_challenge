@@ -1,0 +1,10 @@
+# Code compilation files
+
+__pycache__/
+
+*.py[cod]
+
+# Packaging
+
+build/
+*.egg-info
