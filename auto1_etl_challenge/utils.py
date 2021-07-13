@@ -106,11 +106,11 @@ class DataCleanUtils:
                 returns boolean flag and output in dictionary
         """
         dictionary = {}
-        garbage = {'-':''}
+        garbage = {'-':True}
         is_clean_row = True
 
         for field in fields:
-            if garbage.get(row_data[field].strip()):
+            if garbage.get(row_data[field].strip()) is None:
                 dictionary[field] = row_data[field].strip()
             else:
                 is_clean_row = False
