@@ -87,6 +87,7 @@ class DataCleanUtils:
     Static:
         isRowClean: Cleans the data row
     """
+
     @staticmethod
     def is_row_clean(row_data, fields):
         """
@@ -105,10 +106,11 @@ class DataCleanUtils:
                 returns boolean flag and output in dictionary
         """
         dictionary = {}
+        garbage = {'-'}
         is_clean_row = True
 
         for field in fields:
-            if row_data[field].strip() != '-':
+            if garbage.get(row_data[field].strip()):
                 dictionary[field] = row_data[field].strip()
             else:
                 is_clean_row = False
