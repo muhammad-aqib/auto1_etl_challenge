@@ -1,7 +1,5 @@
 # Auto1 ETL Challenge
 
-[![N|Solid](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1436276038/ibp94kdkzrctawuqnlrp.png)](https://www.auto1.com/en/home)
-
 A simple ETL pipepline that serves the purpose of a challenge for [AUTO1](https://www.auto1.com/en/home), a company that is Europe's largest wholesale platform for used cars.
 
 Developed by Muhammad Aqib - inbox.aqib@gmail.com
