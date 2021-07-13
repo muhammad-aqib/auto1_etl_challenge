@@ -6,8 +6,6 @@ Developed by Muhammad Aqib - inbox.aqib@gmail.com
 
 # Contents
 
-- `package-project` contains a project directory for a Python package. Note that its only content is the `package-project/src` directory for now. If you wanted to add tests or something you could put those in `package-project/tests` or something.
-
 - `auto1_etl_challenge` contains the project directory.
 - `auto1_etl_challenge\etl.py` is the main module that has `EtlPackageAuto1` class with associated methods.
 - `auto1_etl_challenge\utils.py` holds utilites that assists in performing etl operations.
