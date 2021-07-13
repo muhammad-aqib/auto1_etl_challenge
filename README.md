@@ -27,9 +27,9 @@ pip install auto1-etl-challenge
 
 ### Code Guidelines
 
-Create a python file and provide the location of the source file
-
-Note: For testing purpose, file is kept in files directory of this repo.
+- Create a python file and import `EtlPackageAuto1` class from the package.
+- Provide source file path in the constructor.
+- Call `load` and `transform` method.
 
 ```python
 from auto1_etl_challenge import EtlPackageAuto1 #import EtlPackageAuto1 class form package
@@ -41,8 +41,8 @@ result = EtlPackageAuto1.transform(EtlPackageAuto1.dataFile) # transform data, c
 
 ### Output
 
-- Staging and Transformed files are created in the same directory as source file
-- List of lists is returned where first list is header while the following lists contain the values (row-wise)
+- Staging and transformed files are created in the same directory as source file.
+- List of lists is returned where first list is header while the following lists contain the values (row-wise).
 
 
 [Github](https://github.com/muhammad-aqib/auto1_etl_challenge)
