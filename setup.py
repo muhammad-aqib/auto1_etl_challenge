@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from os import path
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 description = 'Auto1 ETL Challenge'
 
 
@@ -20,7 +20,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=[],
-    keywords=['auto1', 'challenge_me', 'etl pipeline',],
+    keywords=['auto1', 'challenge_me', 'etl pipeline'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
