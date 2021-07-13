@@ -106,7 +106,7 @@ class DataCleanUtils:
                 returns boolean flag and output in dictionary
         """
         dictionary = {}
-        garbage = {'-'}
+        garbage = {'-':''}
         is_clean_row = True
 
         for field in fields:
