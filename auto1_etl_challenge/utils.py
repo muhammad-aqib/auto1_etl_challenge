@@ -58,7 +58,7 @@ class ConversionsUtils:
     """
 
     @staticmethod
-    def cents_to_euro(cents, euro = 0.000120):
+    def cents_to_euro(cents, cents_per_euro = 0.01):
         """
         Converts cents to euros
 
@@ -74,7 +74,7 @@ class ConversionsUtils:
             int
                 returns euro
         """
-        return int(cents)*euro
+        return int(cents)*cents_per_euro
 
 
 class DataCleanUtils:
