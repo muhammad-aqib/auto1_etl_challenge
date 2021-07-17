@@ -5,7 +5,7 @@ VERSION = '1.0.0'
 description = 'Auto1 ETL Challenge'
 
 
-with open(path.join(r'C:\Users\muhammad.aqib\Desktop\auto1', 'README.md'), encoding='utf-8') as f:
+with open(path.join(r'D:\muhammad_aqib\auto1', 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 
